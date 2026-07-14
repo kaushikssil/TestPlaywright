@@ -1,0 +1,25 @@
+{
+  "name": "playwright_training_pom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "webSpecs": "npx playwright test --grep @Web --config playwright.config1.js --project=Chrome",
+    "apiSpecs": "npx playwright test --grep @API --config playwright.config1.js --project=Chrome",
+    "regressionSpecs": "npx playwright test --config playwright.config1.js",
+    "Testing": "npx playwright test --grep @testing --config playwright.config1.js --project=Chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.5",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^22.7.9",
+    "allure-playwright": "^3.9.0"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}

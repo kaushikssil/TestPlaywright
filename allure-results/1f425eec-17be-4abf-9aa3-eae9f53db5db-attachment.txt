@@ -1,0 +1,7 @@
+[ 'ADIDAS ORIGINAL', 'ZARA COAT 3', 'iphone 13 pro' ]
+3
+ADIDAS ORIGINAL
+CVV Code ?
+1
+Thank you page | 6a1d5fac17ee3e78baaef0f8 | 
+Thank You Page order id value is  | 6a1d5fac17ee3e78baaef0f8 | 
